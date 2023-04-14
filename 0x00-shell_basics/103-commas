@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aFv | sed 's/^\.\{1,2\}\/*/,/' | sed -E 's/(.*)\/$/\1\//' | sort -df | tr '\n' ',' && echo
+ls - amvp
